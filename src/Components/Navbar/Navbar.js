@@ -18,10 +18,7 @@ export const Navbar = () => {
   const handleHindingSearch = (e) =>{
     const testSearch = document.querySelector('.searching-testing');
     const searchingPictarget= document.querySelector('#searching-pic');
-    if((e.target != testSearch && e.target != searchingPictarget) ){
-      // const targetinginput = document.querySelector('#searching-box')
-      // targetinginput.classList.replace("search-box","search-hide")
-      
+    if((e.target != testSearch && e.target != searchingPictarget ) && hideSearch ){
       setHideSearch(!hideSearch)
     }
   }
