@@ -1,0 +1,79 @@
+.right-side{
+    position: fixed;
+    top: 4.1rem;
+    right: 1.5rem;
+    width: 20.568rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.know-person-box{
+    width: 100%;
+    height: 15.5rem;
+    border-radius: 0.5rem;
+    margin-top: 2.688rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+.known-person-heading > p{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: large;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1rem;
+}
+.know-person-list{
+    height: 5rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.person-detail{
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: large;
+    cursor: pointer;
+}
+.user-icon{
+    width: 3rem;
+    min-height: 3rem;
+    padding-right: 0.6rem;
+}
+.user-icon > img{
+    width: 3rem;
+    min-height: 3rem;
+}
+.person-detail-username{
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+.see-all{
+    text-align: center;
+    color: #FF7324;
+    font-size: large;
+    cursor: pointer;
+}
+
+.Notification{
+    width: 100%;
+    height: 15rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

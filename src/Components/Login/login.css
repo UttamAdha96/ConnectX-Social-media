@@ -1,0 +1,119 @@
+.login-page{
+    height: 100vh;
+    background: #ffffff;
+}
+.side-img{
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+}
+.side-img> img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.login-container{
+    /* flex: 1; */
+    position: absolute;
+    /* top: 5rem; */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    min-height: 100%;
+    /* border-right: 2px solid black; */
+    z-index: 1;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header> h2{
+    font-size: 3rem;
+    margin: 0%;
+    color: #FF7324;
+    font-family: Inter;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1rem;
+}
+
+.login-form{
+    position: absolute;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 60%;
+    width: 85%;
+    /* border: 1px solid black; */
+}
+.login-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+form{
+    min-width: 100%;
+}
+.input-boxes{
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.input-boxes > input{
+    font-size: large;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 100%;
+}
+
+.remember-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.login-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 2.5rem;
+}
+.login-btn> button{
+    background-color: none;
+    border-radius: 20px;
+    font-size: large;
+    border: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+    min-height: 100%;
+}
+
+.register-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

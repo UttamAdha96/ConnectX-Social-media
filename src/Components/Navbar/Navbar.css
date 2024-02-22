@@ -1,0 +1,62 @@
+.navbar{
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(47, 47, 47);
+    background: white;
+    z-index: 1;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.left> h2{
+    font-size: 2rem;
+    margin: 0%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #FF7324;
+    font-family: Inter;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.left> img{
+    width: 40.093px;
+    height: 38.532px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-name{
+    color: #FF7324;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right > img{
+    /* width: 3rem;
+    height: 3rem; */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 63.713px;
+    height: 64.219px;
+    flex-shrink: 0;
+    cursor: pointer;
+    
+}
