@@ -7,10 +7,11 @@ function UserProfile() {
     {
       name:'Uttam Adha',
       banneIimage: require('../Imgs/panchachuli-base-camp-trek.jpg'),
-      userBio:'May the road rise up to meet you.  May the wind be always at your back.  May the sun shine warm upon your face;❤️🕊',
+      userBio:'May the road rise up to meet you. May the wind be always at your back.  May the sun shine warm upon your face;❤️🕊',
       userPic: require('../Imgs/userpic.jpg'),
       isFolloweded:false,
       userPhotos: require('../Imgs/banaras.jpg'),
+      
     }
   )
   // const [postimages, setPostImages] = useState({
