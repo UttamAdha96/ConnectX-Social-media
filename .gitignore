@@ -24,4 +24,4 @@ yarn-error.log*
 
 
 # ignoring images files:
-/src/Components/Imgs
+/src/Components/Imgs/
