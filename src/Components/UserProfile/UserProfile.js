@@ -23,7 +23,6 @@ function UserProfile() {
       NotFollow:'Following'
     }
   )
-
   const handleStopFollowing= () =>{
     setUserProfile(
       {
@@ -34,7 +33,7 @@ function UserProfile() {
   return (<>
   <Sidebar/>
   <div className='user-profile-container'>
-      
+
     
     <div className='profile-box'>
       <div className='profile-user-info'>

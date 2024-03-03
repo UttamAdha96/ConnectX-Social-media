@@ -132,11 +132,11 @@
     height: 100%;
     cursor: pointer;
 }
-.Follow-button > button:hover{
+/* .Follow-button > button:hover{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-}
+} */
 
 
 
@@ -145,13 +145,13 @@
     min-height: 50%;
     /* background: rgb(125, 233, 250); */
     display: flex;
-    justify-content:space-between;
+    justify-content:flex-start;
+    gap: 1rem;
     flex-wrap: wrap;
-    gap: 3rem;
 }
 .user-personal-photos{
-    width: 28rem;
-    height: 20rem;
+    width: 19rem;
+    height: 18rem;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
